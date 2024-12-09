@@ -39,7 +39,7 @@ def get_mid_elements(updates: list[list[str]]) -> list[int]:
 
 
 def main():
-    data = read_file("data/day_05.txt").strip()
+    data = read_file("data/day_05.txt")
     rules, updates = data.split("\n\n")
 
     allowed_after = defaultdict(set)

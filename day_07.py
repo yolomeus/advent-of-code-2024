@@ -30,7 +30,7 @@ def compute_total_calibration(data, operators):
 
 
 def main():
-    data = read_file("data/day_07.txt").strip()
+    data = read_file("data/day_07.txt")
     data = [
         (int(total), list(map(int, parts.split())))
         for total, parts in map(lambda x: x.split(":"), data.split("\n"))

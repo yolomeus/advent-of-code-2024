@@ -134,7 +134,7 @@ def get_num_loop_positions(map_: Map):
 
 
 def main():
-    data = read_file("data/day_06.txt").strip()
+    data = read_file("data/day_06.txt")
 
     map_ = Map(data)
 
